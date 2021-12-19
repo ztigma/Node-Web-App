@@ -1,0 +1,17 @@
+{
+  "name": "romelapp",
+  "version": "1.0.0",
+  "description": "mi primera web",
+  "main": "be.js",
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Romel Lucero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

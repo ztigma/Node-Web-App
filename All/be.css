@@ -1,0 +1,120 @@
+body
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button
+{
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    border-color: transparent;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+div
+{
+    top: 0;
+    margin: 0;
+    border-spacing: 0;
+}
+.MenuButtons
+{
+    top: 0;
+    margin: 0;
+    width: 25%;
+    height: 50%;
+    border-color: transparent;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.Title
+{
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    border-color: transparent;
+    background-color: rgb(2, 94, 180);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+label
+{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+input
+{
+    vertical-align: middle;
+    text-align: center;
+    height: 6%;
+    width: 3%;
+}
+.checkBox
+{
+    height: 3%;
+    width: 3%;
+    vertical-align: middle;
+}
+.TopBar
+{
+    border-color: transparent;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.Clear
+{
+    width: 25%;
+    height: 50%;
+    border-color: transparent;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+}
+.check
+{
+    display: block;
+    text-align: center;
+}
+.labels
+{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.Mensaje
+{
+    width: 100%;
+    text-align: center;
+    
+}
+textarea
+{
+    width: 100%;
+    text-align: top;
+    vertical-align: middle;
+    border-color: transparent;
+    overflow: hidden;
+    resize: none;
+    outline-color: rgb(0, 132, 255);
+}
+#title
+{
+    background-color: rgb(2, 94, 180);
+}
+ol
+{
+    padding-left: 0;
+}

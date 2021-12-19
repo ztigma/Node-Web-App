@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="../../be.css" />
+
+        <ol>
+            <!--USER NAME-->
+            <label class="labels">USERNAME</label>
+            <input type="text" id="User" class="Mensaje" placeholder="Set your username"/>
+        
+            <!--EDAD-->
+            <label class="labels">BIRTHDAY</label>
+            <input type="date" id="Birth" class="Mensaje" placeholder="Set your birthday"/>
+        
+            <!--FAVORITE NUMBER-->
+            <label class="labels">FAVORITE NUMBER</label>
+            <input type="number" id="Number" class="Mensaje" placeholder="Set your number"/>
+        
+            <!--PASSWORD-->
+            <label class="labels">PASSWORD</label>
+            <input type="password" id="Pass" class="Mensaje" placeholder="Set your password"/>
+            
+            <div class="check">
+                <label>Show password</label>
+                <input type="checkbox" class="checkBox"
+                    onclick=
+                    "
+                        var e = document.getElementById('Pass');
+                        var b = e.type == 'password';
+                        if(b)
+                        {
+                            e.type = 'text'
+                        }
+                        else
+                        {
+                            e.type = 'password'
+                        }
+                    "
+                />
+            </div>
+        </ol>
